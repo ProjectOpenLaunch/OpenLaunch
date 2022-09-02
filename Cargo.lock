@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "OpenLaunch"
+name = "openlaunch"
 version = "0.1.0"
