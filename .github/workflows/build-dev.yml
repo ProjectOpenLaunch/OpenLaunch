@@ -1,0 +1,24 @@
+name: Rust-Dev-Build
+
+on:
+  push:
+    branches: [ "dev" ]
+  pull_request:
+    branches: [ "dev" ]
+  schedule:
+    - cron: '0 0 0 2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,31 * ? *'
+    
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build
+      run: cargo build --verbose
+    - name: Run tests
+      run: cargo test --verbose
