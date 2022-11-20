@@ -1,7 +1,3 @@
-pub mod authlib;
-pub mod bmclapi;
-pub mod crebit;
-pub mod curseforge;
-pub mod ftb;
-pub mod mojang;
-pub mod technic;
+pub mod auth;
+pub mod data;
+pub mod resources;
