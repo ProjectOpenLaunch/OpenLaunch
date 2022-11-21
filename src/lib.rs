@@ -37,11 +37,6 @@ pub mod handler;
 */
 pub mod interface;
 /**
- * Java Module
- * Including something like entrypoint locator and java version managed
-*/
-pub mod java;
-/**
  *  Multiplayer Server
 */
 pub mod server;
