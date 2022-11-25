@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Express your brilliant ideas for Openlaunch!
+about: Express your brilliant ideas.
 title: "[Feature Request]"
 labels: enhancement
 assignees: ''

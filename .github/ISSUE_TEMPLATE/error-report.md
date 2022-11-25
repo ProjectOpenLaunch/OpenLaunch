@@ -1,6 +1,6 @@
 ---
 name: Error Report
-about: If you had an error , but you dont know anything , use this template
+about: If you met an error , but you dont know anything about it, use this template.
 title: "[Error Report]"
 labels: help wanted
 assignees: ''
