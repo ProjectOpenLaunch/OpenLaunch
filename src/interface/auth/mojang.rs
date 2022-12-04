@@ -47,7 +47,7 @@ pub mod mojang {
         pub email_verified : bool ,
         pub legacy_user : bool ,
         pub verified_by_parent : bool ,
-        pub perferrred_language : String ,
+        pub perferred_language : String ,
         pub twitch_access_token : String ,
     }
 
@@ -110,7 +110,7 @@ pub mod mojang {
                 email_verified: json["user"]["emailVerified"].to_string().parse::<bool>().unwrap(),
                 legacy_user: json["user"]["legacyUser"].to_string().parse::<bool>().unwrap(),
                 verified_by_parent: json["user"]["verifiedByParent"].to_string().parse::<bool>().unwrap(),
-                perferrred_language: json["user"]["properties"][0]["value"].to_string(),
+                perferred_language: json["user"]["properties"][0]["value"].to_string(),
                 twitch_access_token: json["user"]["properties"][1]["value"].to_string(),
             },
         };
@@ -171,7 +171,7 @@ pub mod mojang {
                 email_verified : context.user.email_verified,
                 legacy_user : context.user.legacy_user,
                 verified_by_parent : context.user.verified_by_parent,
-                perferrred_language : context.user.perferrred_language,
+                perferred_language : context.user.perferred_language,
                 twitch_access_token : context.user.twitch_access_token,
             },
         };
