@@ -1,6 +1,6 @@
 ---
 name: Error Report
-about: If you met an error , but you dont know anything about it, use this template.
+about: If you had met an error , and you dont know anything about it, use this template.
 title: "[Error Report]"
 labels: help wanted
 assignees: ''
@@ -8,19 +8,20 @@ assignees: ''
 ---
 
 **What Happened**
-Description.
+Description about the error.
 
 **What are you doing when error occured?**
-Description.
+Description about what did you do.
 
 **Screenshots**
-Images.
+Images when the error occured.
 
 **Logs**
-Logs File
+What is in the log file.
+
 
 **Addtional Context**
 Any other words you want to say.
 
-**Related issues and reports**
+**Related issues and/or reports**
 Links. [e.g. github.com/ProjectOpenLaunch/OpenLaunch/issues/1145141919810]

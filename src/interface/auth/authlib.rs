@@ -186,7 +186,7 @@ pub mod authlib {
         });
         // Validate authlib access token
         let client = Client::new();
-        let resp = client.post("https://authserver.authlib.com/validate")
+        let resp = client.post(context.authlib_url.to_owned()+"/validate")
             .body(req.to_string())
             .header("Content-Type", "application/json")
             .send()
@@ -204,7 +204,7 @@ pub mod authlib {
         });
         // Signout authlib access token
         let client = Client::new();
-        let resp = client.post("https://authserver.authlib.com/signout")
+        let resp = client.post(context.authlib_url.to_owned()+"/signout")
             .body(req.to_string())
             .header("Content-Type", "application/json")
             .send()
@@ -222,7 +222,7 @@ pub mod authlib {
         });
         // Invalidate authlib access token
         let client = Client::new();
-        let resp = client.post("https://authserver.authlib.com/invalidate")
+        let resp = client.post(context.authlib_url.to_owned()+"/invalidate")
             .body(req.to_string())
             .header("Content-Type", "application/json")
             .send()

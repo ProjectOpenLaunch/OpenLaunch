@@ -20,11 +20,12 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Environment (please complete the following information):**
+**Environment (Please complete the following information):**
  - Operating System : [e.g. iOS]
+ - OS Version : [e.g. Centos 4.8 , Linux Kernel 4.5]
  - Language : [e.g. English]
  - Time : [e.g. 2022-2-22]
- - Arch Version : [e.g.  Preview 0.6.4]
+ - OpenLaunch Version : [e.g.  Preview 0.6.4]
  - Minecraft Version : [e.g.  Java Edition , 1.16.5]
  - Runtime Version : [e.g. JRE 8.0 / JDK 1.8]
  - Minecraft Mods&Plugins : [e.g. 
